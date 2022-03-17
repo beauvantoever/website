@@ -27,16 +27,54 @@
       </div>
     </div>
   </header>
-<div class="card">
+<div class="productrow1">
+  <div class="card">
 
-  <div class="imgBox">
-    <img src="https://www.fctwente.nl/assets/Bestanden/Spelers/Eerste-selectie/2021/Robin-Propper__ScaleWidthWzU4MF0.png" alt="mouse corsair" class="mouse">
+    <div class="imgBox">
+      <img class="mySlides" src="Robin-Propper__ScaleWidthWzU4MF0.png" style="width:45%" alt="mouse corsair" class="mouse">
+      <img class="mySlides" src="Ramiz-Zerrouki__ScaleWidthWzU4MF0.png" style="width:45%" alt="mouse corsair" class="mouse">
+      <img class="mySlides" src="Wout-Brama-v2__ScaleWidthWzU4MF0.png" style="width:47%" alt="mouse corsair" class="mouse">
+      <img class="mySlides" src="Michel-Vlap-3__ScaleWidthWzU4MF0.png" style="width:45%" alt="mouse corsair" class="mouse">
+      <img class="mySlides" src="Ricky-van-Wolfswinkel-3__ScaleWidthWzU4MF0.png" style="width:47%" alt="mouse corsair" class="mouse">
+
+    </div>
+
+    <div class="contentBox">
+      <h3>Senior 21/22 Thuis Shirt</h3>
+      <h2 class="price">61.<small>98</small> €</h2>
+      <a href="#" class="buy">In Winkelwagen</a>
+    </div>
 
   </div>
-  <div class="contentBox">
-    <a href="#" class="buy">Buy Now</a>
-  </div>
+    <div class="card">
 
+    <div class="imgBox">
+      <img src="Robin-Propper__ScaleWidthWzU4MF0.png" alt="mouse corsair" class="mouse">
+    </div>
+
+    <div class="contentBox">
+      <h3>Senior 21/22 Thuis Shirt</h3>
+      <h2 class="price">61.<small>98</small> €</h2>
+      <a href="#" class="buy">In Winkelwagen</a>
+    </div>
+
+  </div>
 </div>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3500); // Change image every 3,5 seconds
+}
+</script>
   </body>
   </html>
