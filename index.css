@@ -8,4 +8,13 @@ html, body {
     overflow-y: hidden;
 }
 
+#cartbutton {
+  font-size: 22px;
+}
 
+.logo {
+  margin-right: 15%;
+}
+.nav {
+  margin-left: 10%;
+}
