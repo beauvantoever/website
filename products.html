@@ -18,14 +18,14 @@
         </a>
 
         <ul id="nav" class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="C:\Users\beauv\OneDrive - ROC Alfa-college\Scrum\Website\website\index.html" class="nav-link px-2 text-white">Home</a></li>
-          <li><a href="C:\Users\beauv\OneDrive - ROC Alfa-college\Scrum\Website\website\products.html" class="nav-link px-2 text-secondary">Producten</a></li>
+          <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+          <li><a href="products.html" class="nav-link px-2 text-secondary">Producten</a></li>
           <li><a href="#" class="nav-link px-2 text-danger">Sale</a></li>
-          <li><a href="C:\Users\beauv\OneDrive - ROC Alfa-college\Scrum\Website\website\winkelwagen.css" class="nav-link px-2 text-white">Winkelwagen</a></li>
+          <li><a href="winkelwagen.html" class="nav-link px-2 text-white">Winkelwagen</a></li>
           <li><a href="#" class="nav-link px-2 text-white">Contact</a></li>
         </ul>
 <img class="logo" src="fct.png">
-<a id="cartbutton" href="C:\Users\beauv\OneDrive - ROC Alfa-college\Scrum\Website\website\winkelwagen.css" class="btn btn-outline-danger" role="button"><i class="fa">&#xf07a;</i>  <span>0</span></a>
+<a id="cartbutton" href="winkelwagen.html" class="btn btn-outline-danger" role="button"><i class="fa">&#xf07a;</i>  <span>0</span></a>
       </div>
     </div>
   </header>
@@ -33,16 +33,12 @@
   <div class="card">
 
     <div class="imgBox">
-      <img class="mySlides" src="Robin-Propper__ScaleWidthWzU4MF0.png" style="width:45%" alt="mouse corsair" class="mouse">
-      <img class="mySlides" src="Ramiz-Zerrouki__ScaleWidthWzU4MF0.png" style="width:45%" alt="mouse corsair" class="mouse">
-      <img class="mySlides" src="Wout-Brama-v2__ScaleWidthWzU4MF0.png" style="width:47%" alt="mouse corsair" class="mouse">
-      <img class="mySlides" src="Michel-Vlap-3__ScaleWidthWzU4MF0.png" style="width:45%" alt="mouse corsair" class="mouse">
-      <img class="mySlides" src="Ricky-van-Wolfswinkel-3__ScaleWidthWzU4MF0.png" style="width:47%" alt="mouse corsair" class="mouse">
-
+      <img src="zerrouki.jpg" alt="mouse corsair" class="mouse">  
     </div>
 
+
     <div class="contentBox">
-      <h3>Senior 21/22 Thuis Shirt</h3>
+      <h3>T-Shirt Zerrouki</h3>
       <h2 class="price">39.<small>00</small> €</h2>
       <a href="#" class="buy">In Winkelwagen</a>
     </div>
@@ -51,33 +47,17 @@
     <div class="card">
 
     <div class="imgBox">
-      <img src="Robin-Propper__ScaleWidthWzU4MF0.png" alt="mouse corsair" class="mouse">
+      <img src="propper.jpg" alt="mouse corsair" class="mouse">
     </div>
 
     <div class="contentBox">
-      <h3>Anders</h3>
-      <h2 class="price">39.<small>00</small> €</h2>
+      <h3>T-Shirt Propper</h3>
+      <h2 class="price">19.<small>00</small> €</h2>
       <a href="#" class="buy">In Winkelwagen</a>
     </div>
 
   </div>
 </div>
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3500); // Change image every 3,5 seconds
-}
-</script>
 <script src="shoppingcart.js"></script>
   </body>
   </html>
