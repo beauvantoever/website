@@ -58,7 +58,8 @@
 }
 
 .products {
-  width: 45%;
+  height:300px;
+  width: 300px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -66,3 +67,7 @@
   border-bottom: 1px solid #F33333;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
